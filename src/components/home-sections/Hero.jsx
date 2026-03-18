@@ -10,7 +10,7 @@ export default function Hero() {
   useEffect(() => {
     intervalRef.current = setInterval(() => {
       setCurrent((p) => (p + 1) % SLIDES.length);
-    }, 25000);
+    }, 15000);
     return () => clearInterval(intervalRef.current);
   }, []);
 
@@ -19,7 +19,7 @@ export default function Hero() {
     setCurrent(i);
     intervalRef.current = setInterval(() => {
       setCurrent((p) => (p + 1) % SLIDES.length);
-    }, 25000);
+    }, 15000);
   };
 
   return (
