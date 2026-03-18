@@ -43,6 +43,7 @@ export default function Hero() {
                 playsInline
                 className="w-full h-full object-cover"
                 src={slide.video}
+                preload="auto"
               />
               {/* dark gradient overlay */}
               <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/30 to-black/80" />
