@@ -29,7 +29,7 @@ export default function MainHeader() {
           {/* Logo */}
           <a href="/" className="flex flex-col leading-none group">
             <span
-              className="text-white font-black tracking-[0.25em] text-xl uppercase"
+              className="text-white font-black tracking-[0.25em] text-2xl uppercase"
               style={{
                 fontFamily: "'Bebas Neue', 'Anton', sans-serif",
                 letterSpacing: "0.3em",
@@ -38,7 +38,7 @@ export default function MainHeader() {
               FAPOS
             </span>
             <span className="text-[10px] tracking-[0.2em] text-amber-400 uppercase font-medium">
-              Ground Intelligence
+              West Africa
             </span>
           </a>
 

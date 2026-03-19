@@ -8,13 +8,13 @@ export default function MainFooter() {
         <div>
           <Link href="/" className="flex flex-col gap-0.5 mb-4">
             <span
-              className="text-white font-black tracking-[0.3em] text-xl"
+              className="text-white font-black tracking-[0.3em] text-2xl"
               style={{ fontFamily: "'Bebas Neue', sans-serif" }}
             >
               FAPOS
             </span>
-            <span className="text-[9px] tracking-[0.2em] text-amber-400 uppercase font-medium">
-              Ground Intelligence
+            <span className="text-[10px] tracking-[0.2em] text-amber-400 uppercase font-medium">
+              West Africa 
             </span>
           </Link>
           <p className="text-white/45 text-[13px] leading-relaxed max-w-[240px]">
