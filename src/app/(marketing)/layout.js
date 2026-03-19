@@ -3,7 +3,7 @@ import MainHeader from "@/components/layout/main-header";
 
 export default function MarketingLayout({ children }) {
   return (
-    <main className="pt-24">
+    <main>
       <MainHeader />
       <main>{children}</main>
       <MainFooter />
