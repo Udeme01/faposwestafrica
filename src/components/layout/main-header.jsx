@@ -21,11 +21,11 @@ export default function MainHeader() {
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b border-white/10 ${
           scrolled ? "bg-black/50 backdrop-blur-md py-3" : "bg-transparent py-6"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+        <div className="max-w-[90vw] mx-auto flex items-center justify-between">
           {/* Logo */}
           <a href="/" className="flex flex-col leading-none group">
             <span

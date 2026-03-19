@@ -53,7 +53,7 @@ export default function Hero() {
       </AnimatePresence>
 
       {/* ── HERO CONTENT ── */}
-      <div className="absolute inset-0 z-10 flex flex-col justify-end pb-24 px-6 md:px-16 max-w-7xl mx-auto w-full left-0 right-0">
+      <section className="absolute inset-0 z-10 flex flex-col justify-end pb-24 md:px-16 max-w-[90vw] mx-auto w-full left-0 right-0">
         {/* Tag */}
         <AnimatePresence mode="wait">
           <motion.span
@@ -130,7 +130,7 @@ export default function Hero() {
             Our Solutions
           </a>
         </motion.div>
-      </div>
+      </section>
 
       {/* ── SLIDE INDICATORS ── */}
       <div className="absolute bottom-8 right-6 md:right-16 z-20 flex flex-col items-end gap-2">
