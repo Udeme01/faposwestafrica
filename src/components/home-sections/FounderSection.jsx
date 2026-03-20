@@ -3,6 +3,7 @@
 import { motion } from "motion/react";
 import { BtnGold } from "../ui/Button";
 import SectionTag from "../ui/SectionHeader";
+import Image from "next/image";
 
 export default function FounderSection() {
   return (
@@ -19,6 +20,12 @@ export default function FounderSection() {
             {/* Replace with actual founder image */}
             <div className="absolute inset-0 flex items-center justify-center text-white/10 text-sm uppercase tracking-widest">
               Founder Photo
+              <Image
+                src="/images/founder01.jpg"
+                alt="founder's photo"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="absolute bottom-0 left-0 bg-amber-400 px-5 py-3.5">
               <p className="text-[9px] uppercase tracking-[0.18em] text-black font-bold">

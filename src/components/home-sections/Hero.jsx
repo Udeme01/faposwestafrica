@@ -82,11 +82,11 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
-            className="text-white font-black leading-none mb-4"
+            className="text-white font-black leading-none mb-4 tracking-wider"
             style={{
               fontFamily: "'Bebas Neue', 'Anton', Impact, sans-serif",
               fontSize: "clamp(2.8rem, 7vw, 6rem)",
-              letterSpacing: "0.02em",
+              // letterSpacing: "0.02em",
               maxWidth: "800px",
             }}
           >

@@ -7,13 +7,13 @@ import { STATS } from "@/data/stats";
 
 export default function GroundProblemSection() {
   return (
-    <section className="bg-white pb-24">
+    <section className="bg-white pb-24 px-14">
       <motion.section
         initial={{ opacity: 0, y: 32 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.9 }}
-        className="px-14 py-20 md:py-32 lg:py-40 xl:py-60"
+        className="py-20 md:py-32 lg:py-40 xl:py-60 tracking-wide"
       >
         <h2
           className="text-black leading-11 md:leading-14 lg:leading-20 mb-5 max-w-7xl mx-auto"
