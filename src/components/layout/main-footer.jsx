@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function MainFooter() {
   return (
-    <>
-      <footer className="bg-[#050505] border-t border-white/5 py-12 grid md:grid-cols-[2fr_1fr_1fr_1fr] gap-12 max-w-[90vw] mx-auto">
+    <footer className="bg-[#050505]">
+      <section className="border-t border-white/5 py-12 grid md:grid-cols-[2fr_1fr_1fr_1fr] gap-12 max-w-[90vw] mx-auto">
         <div>
           <Link href="/" className="flex flex-col gap-0.5 mb-4">
             <span
@@ -14,7 +14,7 @@ export default function MainFooter() {
               FAPOS
             </span>
             <span className="text-[10px] tracking-[0.2em] text-amber-400 uppercase font-medium">
-              West Africa 
+              West Africa
             </span>
           </Link>
           <p className="text-white/45 text-[13px] leading-relaxed max-w-[240px]">
@@ -60,7 +60,7 @@ export default function MainFooter() {
             ))}
           </div>
         ))}
-      </footer>
+      </section>
       <div className="bg-[#050505] border-t border-white/5 px-14 py-5 flex items-center justify-between flex-wrap gap-3">
         <p className="text-[11px] text-white/20 tracking-[0.1em]">
           © 2025 FAPOS Ground Intelligence. All rights reserved.
@@ -69,6 +69,6 @@ export default function MainFooter() {
           Geophysical Science for Africa's Future.
         </p>
       </div>
-    </>
+    </footer>
   );
 }
