@@ -63,7 +63,7 @@ export default function MainFooter() {
       </section>
       <div className="bg-[#050505] border-t border-white/5 px-14 py-5 flex items-center justify-between flex-wrap gap-3">
         <p className="text-[11px] text-white/20 tracking-[0.1em]">
-          © 2025 FAPOS Ground Intelligence. All rights reserved.
+          © 2025 FAPOS West Africa. All rights reserved.
         </p>
         <p className="text-[11px] text-white/20 tracking-[0.1em]">
           Geophysical Science for Africa's Future.
