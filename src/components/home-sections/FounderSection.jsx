@@ -16,12 +16,12 @@ export default function FounderSection() {
           transition={{ duration: 0.7 }}
           className="relative"
         >
-          <div className="relative aspect-3/4 bg-[#161616] border border-white/8 overflow-hidden">
+          <div className="relative aspect-4/6 bg-[#161616] border border-white/8 overflow-hidden">
             {/* Replace with actual founder image */}
             <div className="absolute inset-0 flex items-center justify-center text-white/10 text-sm uppercase tracking-widest">
               Founder Photo
               <Image
-                src="/images/founder01.jpg"
+                src="/images/founder_fapos.jpeg"
                 alt="founder's photo"
                 fill
                 className="object-cover"

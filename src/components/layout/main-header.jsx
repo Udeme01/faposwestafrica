@@ -27,11 +27,10 @@ export default function MainHeader() {
       >
         <div className="max-w-[90vw] mx-auto flex items-center justify-between">
           {/* Logo */}
-          <a href="/" className="flex flex-col leading-none group">
+          <a href="/" className="flex flex-col leading-none group font-inter">
             <span
               className="text-white font-black tracking-[0.25em] text-2xl uppercase"
               style={{
-                fontFamily: "'Bebas Neue', 'Anton', sans-serif",
                 letterSpacing: "0.3em",
               }}
             >
@@ -48,7 +47,7 @@ export default function MainHeader() {
               <li key={link.label}>
                 <a
                   href={link.href}
-                  className="relative text-white/80 hover:text-white text-sm tracking-widest uppercase font-medium transition-colors duration-200 group"
+                  className="relative text-white/80 hover:text-white text-sm tracking-widest uppercase font-medium transition-colors duration-200 group font-inter"
                   style={{ fontSize: "11px", letterSpacing: "0.15em" }}
                 >
                   {link.label}
@@ -62,7 +61,7 @@ export default function MainHeader() {
           <div className="flex items-center gap-4">
             <a
               href="/contact"
-              className="hidden md:inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-black text-xs font-bold uppercase tracking-widest px-5 py-2.5 transition-all duration-200"
+              className="hidden md:inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-black text-xs font-bold uppercase tracking-widest px-5 py-2.5 transition-all duration-200 font-inter"
               style={{ letterSpacing: "0.12em" }}
             >
               Start Investigation
@@ -118,9 +117,8 @@ export default function MainHeader() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.08, duration: 0.4 }}
-                className="text-white text-3xl font-black uppercase tracking-widest hover:text-amber-400 transition-colors"
+                className="text-white text-3xl font-black uppercase tracking-widest hover:text-amber-400 transition-colors font-inter"
                 style={{
-                  fontFamily: "'Bebas Neue', 'Anton', sans-serif",
                   letterSpacing: "0.2em",
                 }}
               >
@@ -133,7 +131,7 @@ export default function MainHeader() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: NAV_LINKS.length * 0.08 + 0.1 }}
-              className="mt-4 bg-amber-400 text-black font-bold uppercase tracking-widest px-8 py-4 text-sm"
+              className="mt-4 bg-amber-400 text-black font-bold uppercase tracking-widest px-8 py-4 text-sm font-inter"
             >
               Start Investigation
             </motion.a>

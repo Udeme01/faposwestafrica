@@ -66,7 +66,7 @@ export default function Hero() {
           >
             <span className="w-8 h-px bg-amber-400" />
             <span
-              className="text-amber-400 uppercase text-xs font-bold tracking-[0.25em]"
+              className="text-amber-400 uppercase text-xs font-bold tracking-[0.25em] font-inter"
               style={{ letterSpacing: "0.2em" }}
             >
               {SLIDES[current].tag}
@@ -82,9 +82,8 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
-            className="text-white font-black leading-none mb-4 tracking-wider"
+            className="text-white font-black leading-none mb-4 tracking-wider font-playfair"
             style={{
-              fontFamily: "'Bebas Neue', 'Anton', Impact, sans-serif",
               fontSize: "clamp(2.8rem, 7vw, 6rem)",
               // letterSpacing: "0.02em",
               maxWidth: "800px",
@@ -102,7 +101,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.6, delay: 0.15 }}
-            className="text-white/70 text-base md:text-lg max-w-xl mb-8 leading-relaxed"
+            className="text-white/70 text-base md:text-lg max-w-xl mb-8 leading-relaxed font-inter"
           >
             {SLIDES[current].sub}
           </motion.p>
@@ -117,14 +116,14 @@ export default function Hero() {
         >
           <a
             href="/contact"
-            className="bg-amber-400 hover:bg-amber-300 text-black font-bold uppercase text-xs tracking-widest px-7 py-3.5 transition-all duration-200 hover:scale-105 active:scale-100"
+            className="bg-amber-400 hover:bg-amber-300 text-black font-bold uppercase text-xs tracking-widest px-7 py-3.5 transition-all duration-200 hover:scale-105 active:scale-100 font-inter"
             style={{ letterSpacing: "0.15em" }}
           >
             Start Your Investigation
           </a>
           <a
             href="/solutions"
-            className="border border-white/40 hover:border-white text-white font-medium uppercase text-xs tracking-widest px-7 py-3.5 transition-all duration-200 hover:bg-white/10"
+            className="border border-white/40 hover:border-white text-white font-medium uppercase text-xs tracking-widest px-7 py-3.5 transition-all duration-200 hover:bg-white/10 font-inter"
             style={{ letterSpacing: "0.15em" }}
           >
             Our Solutions
@@ -162,7 +161,7 @@ export default function Hero() {
         transition={{ delay: 1.5, duration: 0.8 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2"
       >
-        <span className="text-white/40 text-[9px] uppercase tracking-[0.3em]">
+        <span className="text-white/40 text-[9px] uppercase tracking-[0.3em] font-inter">
           Scroll
         </span>
         <motion.div

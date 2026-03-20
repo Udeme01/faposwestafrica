@@ -1,10 +1,17 @@
 import "./globals.css";
-import { Bebas_Neue } from "next/font/google";
+import { Playfair_Display, Inter } from "next/font/google";
 
-const Bebas = Bebas_Neue({
-  weight: "400",
+const playfair = Playfair_Display({
+  // weight: "400",
   subsets: ["latin"],
-  variable: "--font-bebas",
+  variable: "--font-playfair",
+  display: "swap",
+});
+
+const inter = Inter({
+  // weight: "400",
+  subsets: ["latin"],
+  variable: "--font-inter",
   display: "swap",
 });
 
@@ -16,7 +23,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`antialiased ${Bebas.variable}`}>{children}</body>
+      <body className={`antialiased ${inter.variable} ${playfair.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
