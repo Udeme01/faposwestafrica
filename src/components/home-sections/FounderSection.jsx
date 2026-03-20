@@ -28,7 +28,7 @@ export default function FounderSection() {
               />
             </div>
             <div className="absolute bottom-0 left-0 bg-amber-400 px-5 py-3.5">
-              <p className="text-[9px] uppercase tracking-[0.18em] text-black font-bold">
+              <p className="text-[9px] uppercase tracking-[0.18em] text-black font-bold font-inter">
                 Principal Geophysicist
               </p>
             </div>
@@ -42,21 +42,20 @@ export default function FounderSection() {
         >
           <SectionTag label="The Founder" />
           <h2
-            className="text-black font-black leading-none mb-5"
+            className="text-black font-black leading-none mb-5 font-playfair"
             style={{
-              fontFamily: "'Bebas Neue', sans-serif",
               fontSize: "clamp(36px, 4vw, 58px)",
             }}
           >
             Meet the Geophysicist Behind FAPOS.
           </h2>
           <blockquote className="border-l-2 border-amber-400 pl-5 mb-5">
-            <p className="text-black/80 text-lg italic font-light leading-relaxed">
+            <p className="text-black/80 text-lg italic font-light leading-relaxed font-inter">
               "Understanding the ground is not optional — it is the foundation
               of everything we build in Africa."
             </p>
           </blockquote>
-          <p className="text-black/55 text-[15px] leading-relaxed mb-6">
+          <p className="text-black/55 text-[15px] leading-relaxed mb-6 font-inter">
             With over a decade of fieldwork across Nigeria, he has studied
             aquifer systems from Lagos Island to the Niger Delta — translating
             complex subsurface data into actionable intelligence for developers

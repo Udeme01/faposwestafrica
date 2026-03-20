@@ -7,15 +7,14 @@ import Image from "next/image";
 
 export function ProjectsSection() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white font-inter">
       <div>
         <section className="flex items-end justify-between mb-12 max-w-7xl mx-auto px-14">
           <div>
             <SectionTag label="Field Projects" />
             <h2
-              className="text-black font-black leading-none"
+              className="text-black font-black leading-none font-playfair"
               style={{
-                fontFamily: "'Bebas Neue', sans-serif",
                 fontSize: "clamp(36px, 4vw, 58px)",
               }}
             >
@@ -42,8 +41,9 @@ export function ProjectsSection() {
                   fill
                   className={`object-cover transition-transform duration-500 group-hover:scale-105`}
                 />
+                <div className="bg-black/50 absolute inset-0" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <div className="text-amber-400 text-[9px] uppercase tracking-[0.2em] mb-1.5">
+                  <div className="text-amber-100 text-[9px] uppercase tracking-[0.2em] mb-1.5">
                     {p.tag}
                   </div>
                   <div
@@ -58,7 +58,8 @@ export function ProjectsSection() {
                     {p.location}
                   </div>
                 </div>
-                <div className="absolute inset-0 bg-linear-to-t from-black/60 via-bg-transparent to-transparent" />
+                {/* overlay */}
+                <div className="absolute inset-0 bg-linear-to-t from-black/5 via-bg-transparent to-transparent" />
               </motion.section>
             );
           })}

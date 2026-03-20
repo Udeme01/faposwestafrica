@@ -46,13 +46,12 @@ export default function NotFound() {
           >
             Back to Home
           </Link>
-          <Link
+          {/* <Link
             href="/assessment"
             className="border border-white/20 hover:border-white/40 text-white/60 hover:text-white text-[11px] tracking-[0.2em] uppercase px-8 py-4 no-underline transition-all duration-300"
-            style={{ fontFamily: "var(--font-inter)" }}
           >
             Take Assessment
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

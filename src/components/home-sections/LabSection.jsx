@@ -6,15 +6,14 @@ import { ARTICLES } from "@/data/articles";
 
 export default function LabSection() {
   return (
-    <section className="py-24 px-14 bg-white">
+    <section className="py-24 px-14 bg-white font-inter">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-end justify-between mb-12">
           <div>
             <SectionTag label="FAPOS Ground Lab" />
             <h2
-              className="text-black font-black leading-none"
+              className="text-black font-black leading-none font-playfair"
               style={{
-                fontFamily: "'Bebas Neue', sans-serif",
                 fontSize: "clamp(36px, 4vw, 58px)",
               }}
             >
@@ -37,9 +36,8 @@ export default function LabSection() {
                 {a.date}
               </div>
               <h3
-                className="text-white font-black mb-3 leading-tight"
+                className="text-white font-black mb-3 leading-tight font-playfair"
                 style={{
-                  fontFamily: "'Bebas Neue', sans-serif",
                   fontSize: "22px",
                   letterSpacing: "0.04em",
                 }}

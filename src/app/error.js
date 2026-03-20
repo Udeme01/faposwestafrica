@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default function Error({ error, reset }) {
   useEffect(() => {
-    console.error("ACE Error:", error);
+    console.error("FAPOS WEST AFRICA! Error:", error);
   }, [error]);
 
   return (

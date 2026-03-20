@@ -4,7 +4,7 @@ import SectionTag from "../ui/SectionHeader";
 
 export default function ContactSection() {
   return (
-    <section className="relative py-24 px-14 overflow-hidden bg-white">
+    <section className="relative py-24 px-14 overflow-hidden bg-white font-inter">
       {/* Grid BG */}
       <div
         className="absolute inset-0 opacity-100"
@@ -23,9 +23,8 @@ export default function ContactSection() {
         >
           <SectionTag label="Work With Us" />
           <h2
-            className="text-black font-black leading-[0.95] mb-6"
+            className="text-black font-black leading-[0.95] mb-6 font-playfair"
             style={{
-              fontFamily: "'Bebas Neue', sans-serif",
               fontSize: "clamp(52px, 6vw, 80px)",
             }}
           >

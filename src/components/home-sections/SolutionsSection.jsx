@@ -7,15 +7,14 @@ import { SOLUTIONS } from "@/data/solutions";
 
 export default function SolutionsSection() {
   return (
-    <section className="py-24 px-14 bg-white">
+    <section className="py-24 px-14 bg-white font-inter">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-end justify-between mb-14">
           <div>
             <SectionTag label="Scientific Solutions" />
             <h2
-              className="text-black font-black leading-none"
+              className="text-black font-black leading-none font-playfair"
               style={{
-                fontFamily: "'Bebas Neue', sans-serif",
                 fontSize: "clamp(36px, 4vw, 58px)",
               }}
             >
@@ -36,9 +35,8 @@ export default function SolutionsSection() {
             >
               <div className="absolute top-0 left-0 w-full h-0.5 bg-amber-400 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-400" />
               <h3
-                className="text-white font-black mb-3"
+                className="text-white font-black mb-3 font-playfair"
                 style={{
-                  fontFamily: "'Bebas Neue', sans-serif",
                   fontSize: "22px",
                   letterSpacing: "0.06em",
                 }}

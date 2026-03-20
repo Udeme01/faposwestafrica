@@ -3,14 +3,11 @@ import Link from "next/link";
 
 export default function MainFooter() {
   return (
-    <footer className="bg-[#050505]">
+    <footer className="bg-[#050505] font-inter">
       <section className="border-t border-white/5 py-12 grid md:grid-cols-[2fr_1fr_1fr_1fr] gap-12 max-w-[90vw] mx-auto">
         <div>
           <Link href="/" className="flex flex-col gap-0.5 mb-4">
-            <span
-              className="text-white font-black tracking-[0.3em] text-2xl"
-              style={{ fontFamily: "'Bebas Neue', sans-serif" }}
-            >
+            <span className="text-white font-black tracking-[0.3em] text-2xl">
               FAPOS
             </span>
             <span className="text-[10px] tracking-[0.2em] text-amber-400 uppercase font-medium">
@@ -46,7 +43,7 @@ export default function MainFooter() {
           },
         ].map((col) => (
           <div key={col.title}>
-            <h4 className="text-amber-400 text-[10px] uppercase tracking-[0.2em] mb-4">
+            <h4 className="text-amber-400 text-[10px] uppercase tracking-[0.2em] mb-4 font-playfair">
               {col.title}
             </h4>
             {col.links.map((l) => (

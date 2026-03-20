@@ -16,9 +16,8 @@ export default function GroundProblemSection() {
         className="py-20 md:py-32 lg:py-40 xl:py-60 tracking-wide"
       >
         <h2
-          className="text-black leading-11 md:leading-14 lg:leading-20 mb-5 max-w-7xl mx-auto"
+          className="text-black leading-11 md:leading-14 lg:leading-20 mb-5 max-w-7xl mx-auto font-playfair"
           style={{
-            fontFamily: "'Bebas Neue', sans-serif",
             fontSize: "clamp(36px, 6vw, 65px)",
           }}
         >
@@ -35,12 +34,12 @@ export default function GroundProblemSection() {
         >
           <SectionTag label="The Ground Problem" />
 
-          <p className="text-black/55 text-[15px] leading-relaxed mb-4">
+          <p className="text-black/55 text-[15px] leading-relaxed mb-4 font-inter">
             Rapid urbanisation across Lagos, Abuja and beyond is outpacing our
             understanding of the ground beneath. Unverified boreholes fail.
             Foundations shift. Infrastructure collapses.
           </p>
-          <p className="text-black/55 text-[15px] leading-relaxed mb-8">
+          <p className="text-black/55 text-[15px] leading-relaxed mb-8 font-inter">
             FAPOS exists to change that. We bring geophysical science directly
             to developers, engineers and government planners who need ground
             truth before they build.
@@ -57,15 +56,14 @@ export default function GroundProblemSection() {
           {STATS.map((s, i) => (
             <div key={i} className="bg-black p-9">
               <div
-                className="font-black leading-none text-amber-400 mb-2"
+                className="font-black leading-none text-amber-400 mb-2 font-inter"
                 style={{
-                  fontFamily: "'Bebas Neue', sans-serif",
                   fontSize: "52px",
                 }}
               >
                 {s.num}
               </div>
-              <div className="text-[11px] uppercase tracking-[0.15em] text-white/50">
+              <div className="text-[11px] uppercase tracking-[0.15em] text-white/50 font-inter">
                 {s.label}
               </div>
             </div>
